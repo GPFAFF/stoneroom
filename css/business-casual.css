@@ -6,7 +6,7 @@
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url('../img/bg.jpg') no-repeat center center fixed;
+    background: url('../img/ice.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -55,6 +55,14 @@ hr {
 
 .img-full {
     min-width: 100%;
+}
+
+.logo {
+    background: url('../img/sticks.png') center center no-repeat;
+    height: 180px;
+    width: 120px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .brand-before,
@@ -123,7 +131,7 @@ footer p {
         font-size: 5em;
         font-weight: 700;
         line-height: normal;
-        color: #fff;
+        color: #000;
     }
 
     .top-divider {
@@ -145,7 +153,7 @@ footer p {
         font-size: 1.25em;
         font-weight: 400;
         letter-spacing: 3px;
-        color: #fff;
+        color: #000;
     }
 
     .navbar {
