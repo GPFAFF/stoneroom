@@ -58,6 +58,14 @@ hr {
     min-width: 100%;
 }
 
+.logo {
+    background: url('../img/sticks.png') center center no-repeat;
+    height: 180px;
+    width: 120px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .brand-before,
 .brand-name {
     text-transform: capitalize;
@@ -125,7 +133,10 @@ footer p {
         font-weight: 700;
         line-height: normal;
         color: #000;
+<<<<<<< HEAD
         text-shadow: 1px 1px 1px #A9A5A5;
+=======
+>>>>>>> photo and text changes
     }
 
     .top-divider {
@@ -148,7 +159,10 @@ footer p {
         font-weight: 400;
         letter-spacing: 3px;
         color: #000;
+<<<<<<< HEAD
         text-shadow: 1px 1px 1px #A9A5A5;
+=======
+>>>>>>> photo and text changes
     }
 
     .navbar {
