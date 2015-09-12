@@ -125,7 +125,7 @@ footer p {
 }
 
 @media screen and (min-width:768px) {
-    .brand-name h1{
+    .brand-name{
         font-size: 30px;
     }
     .col-lg-12.text-center p{
