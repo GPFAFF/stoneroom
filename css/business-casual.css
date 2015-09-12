@@ -48,6 +48,7 @@ hr {
     float: none;
     line-height: 50px;
     font-size: 18px;
+    padding: 0 5px;
 }
 
 .navbar-nav {
