@@ -46,6 +46,8 @@ hr {
     font-weight: 900;
     letter-spacing: 2px;
     float: none;
+    line-height: 50px;
+    font-size: 18px;
 }
 
 .navbar-nav {
