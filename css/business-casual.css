@@ -80,7 +80,7 @@ hr {
 
 .brand-name {
     margin: 0;
-    font-size: 4em;
+    font-size: 2em;
 }
 
 .tagline-divider {
@@ -125,10 +125,7 @@ footer p {
 }
 
 @media screen and (min-width:768px) {
-    .brand-name{
-        font-size: 30px;
-    }
-    .col-lg-12.text-center p{
+    .col-lg-12.text-center p {
         font-size: 14px;
     }
     .brand {
