@@ -117,30 +117,29 @@
                         <div class="row">
                             <div class="form-group col-lg-4">
                                 <label>Name</label>
-                               <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
-<!--                             <?php echo "<p class='text-danger'>$errName</p>";?>  
- -->                            </div>
+                               <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="test">
+                           <p class='text-danger'></p>
+                          </div>
                             
                             <div class="form-group col-lg-4">
                                 <label>Email Address</label>
-                                <input type="email" class="form-control" id="email" name="email" value="<?php echo htmlspecialchars($_POST['email']); ?>">
-                                <?php echo "<p class='text-danger'>$errEmail</p>" ;?>
+                                <input type="email" class="form-control" id="email" name="email" value="test">
+                                <p class='text-danger'></p>
                             </div>
                             <div class="form-group col-lg-4">
                                 <label>Phone Number</label>
                                 <input type="tel" class="form-control" value="">
-                                <?php echo "<p class='text-danger'>$errPhone</p>";?>
+                                <p class='text-danger'></p>
                             </div>
                             <div class="clearfix"></div>
                             <div class="form-group col-lg-12">
                                 <label>Message</label>
-                                <textarea class="form-control" rows="6" name="message"><?php echo htmlspecialchars($_POST['message']);?></textarea>
-                                    <?php echo "<p class='text-danger'>$errMessage</p>";?>
+                                <textarea class="form-control" rows="6" name="message"></textarea><p class='text-danger'>
                             </div>
                             <div class="form-group col-lg-12">
                                 <input type="hidden" name="submit" value="send">
                                 <button type="submit" class="btn btn-default">Submit</button>
-                                <?php echo $result; ?>
+                            
                             </div>
                         </div>
                     </form>
