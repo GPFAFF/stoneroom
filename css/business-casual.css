@@ -128,10 +128,14 @@ hr {
     font-weight: bold;
     text-decoration: none;
     padding: 5px;
-     box-shadow: 
+    /* box-shadow: 
         1px 1px #53A7EA, 
         2px 2px #53A7EA, 
-        3px 3px #53A7EA;
+        3px 3px #53A7EA;*/
+    box-shadow:  
+        3px 5px #083050, 
+        3px 5px #083050, 
+        0px 5px #083050;
     transition: all 0.1s ease-in;
 }
 #rent-section:hover{
@@ -150,6 +154,12 @@ hr {
     padding: 10px 0;
     margin: 0;
     line-height: 30px;
+}
+.title{
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 footer {
     background: #fff;
