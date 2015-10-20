@@ -113,7 +113,44 @@ hr {
     float: none;
     margin: 0 auto 0;
 }
-
+#rent-section{
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    background-color: rgba(155, 155, 155, 0.9);
+    border-radius: 4px;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    background: #08C;
+    /* Font styles */
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+     box-shadow: 
+        1px 1px #53A7EA, 
+        2px 2px #53A7EA, 
+        3px 3px #53A7EA;
+    transition: all 0.1s ease-in;
+}
+#rent-section:hover{
+    background: #0AF;
+    box-shadow: none;
+    top: 3px;
+    left: 3px;
+}
+#rent-section > a{
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+#rent-directions p{
+    padding: 10px 0;
+    margin: 0;
+    line-height: 30px;
+}
 footer {
     background: #fff;
     background: rgba(255,255,255,0.9);
