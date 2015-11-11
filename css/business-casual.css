@@ -1,4 +1,4 @@
-/*!
+ /*!
  * Start Bootstrap - Business Casual Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
@@ -127,8 +127,7 @@ hr {
     background-color: rgba(155, 155, 155, 0.9);
     border-radius: 4px;
     display: inline-block;
-    padding: 10px;
-    margin: 10px;
+    margin-top: 20px;
     background: #08C;
     /* Font styles */
     color: white;
