@@ -140,8 +140,8 @@ hr {
         2px 2px #53A7EA, 
         3px 3px #53A7EA;*/
     box-shadow:  
-        3px 5px #083050, 
-        3px 5px #083050, 
+        0px 5px #083050, 
+        0px 5px #083050, 
         0px 5px #083050;
     transition: all 0.1s ease-in;
 }
