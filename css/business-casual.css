@@ -23,6 +23,11 @@ h6 {
     font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
+    text-align: center;
+}
+
+h3{
+    margin: 20px;
 }
 
 p {
@@ -103,6 +108,10 @@ hr {
     background: rgba(255,255,255,0.9);
 }
 
+.col-lg-12.text-center p {
+        padding: 40px 150px;
+    }
+
 .intro-text {
     text-transform: uppercase;
     font-size: 1.25em;
@@ -120,8 +129,13 @@ hr {
     float: none;
     margin: 0 auto 0;
 }
-#rink-action-section{
+
+.centering-row{
     width: 100%;
+    text-align: center;
+}
+#rink-action-section{
+    width: 70%;
     text-align: center;
     height: 50px;
     background-color: rgba(155, 155, 155, 0.9);
@@ -146,7 +160,6 @@ hr {
 }
 #rink-action-section:hover{
     background: #0AF;
-    box-shadow: none;
     top: 3px;
     left: 3px;
 }
@@ -154,7 +167,7 @@ hr {
     color: white;
     padding: 5px;
     margin-top: 10px;
-    font-size: 30px;
+    font-size: 25px;
 }
 #rent-directions {
     width: 100%;
