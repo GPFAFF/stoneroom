@@ -227,6 +227,7 @@ footer p {
 th {
     background-color: gray;
     padding: 5px;
+    text-align: center;
 }
 tbody {
     max-width: 100%;
