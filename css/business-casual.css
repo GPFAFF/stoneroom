@@ -169,6 +169,10 @@ hr {
     margin-top: 10px;
     font-size: 25px;
 }
+
+#rink-action-section > a:hover {
+    text-decoration: none;
+}
 #rent-directions {
     width: 100%;
     margin: 0 auto;
@@ -390,6 +394,14 @@ td {
         td:nth-of-type(7):before { content: "HOME"; }
         td:nth-of-type(8):before { content: "SCORE"; }
         td:nth-of-type(9):before { content: "POINTS"; }
+
+
+        #standings-table th{
+            display: none;
+        }
+        #standings-table .game-date {
+            display: block;
+        }
 
     }
 
