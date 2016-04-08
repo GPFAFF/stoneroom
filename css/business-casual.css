@@ -37,6 +37,7 @@ p {
     font-size: 1.25em;
     line-height: 1.6;
     color: #000;
+    margin: 10px 50px;
 }
 
 hr {
@@ -325,7 +326,8 @@ td {
     }
 
     .nav > li >a {
-        padding: 35px;
+        padding: 12px;
+        font-size: 16px;
     }
 
     .navbar-nav > li >a {
