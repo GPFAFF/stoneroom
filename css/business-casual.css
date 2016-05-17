@@ -210,7 +210,7 @@ footer p {
 }
 
 #standings-table, 
-#standings {
+#standings, #game-table {
      cellpadding: "0"; 
      cellspacing:"0";
      border-collapse: collapse; 
@@ -218,12 +218,12 @@ footer p {
 }
 
 #standings-table > td, 
-#standings { 
+#standings, #game-table { 
      padding: 10px;
 }
 
 #standings-table, 
-#standings { 
+#standings, #game-table{ 
     margin: 30px auto 50px;
     max-width: 100%;
 }
@@ -414,13 +414,13 @@ td {
         td:nth-of-type(8):before { content: "SCORE"; }
         td:nth-of-type(9):before { content: "POINTS"; }
 
-        #standings-table th{
-            display: none;
+        #game-table th {
+          display: none;
         }
-        #standings-header th {
+        #standings-table th {
             display: inline;
         }
-        #standings-table .game-date {
+        #game-table .game-date {
             display: block;
         }
 
