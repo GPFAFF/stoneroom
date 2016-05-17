@@ -414,7 +414,10 @@ td {
         td:nth-of-type(8):before { content: "SCORE"; }
         td:nth-of-type(9):before { content: "POINTS"; }
 
-        #standings-table th {
+        #standings-table th{
+            display: none;
+        }
+        #standings-header th {
             display: inline;
         }
         #standings-table .game-date {
